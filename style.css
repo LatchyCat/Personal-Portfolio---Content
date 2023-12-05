@@ -1,0 +1,97 @@
+body {
+    background-color: #b7e4c7;
+    /* Light green background */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    /* Playful font */
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h3 {
+    color: #4c7c4c;
+    /* Dark green heading text color */
+}
+
+a {
+    color: #996633;
+    /* Brown link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the header */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Styling for the social icons and links */
+div img {
+    margin-right: 10px;
+}
+
+/* Styling for the table */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 2px solid #4c7c4c;
+    /* Dark green borders for table cells */
+    padding: 8px;
+    text-align: center;
+}
+
+/* Styling for the Technologies section */
+th {
+    background-color: #4c7c4c;
+    /* Dark green background for table header */
+    color: #fff;
+    /* White text color for table header */
+}
+
+/* Styling for the Social Snakes section */
+p {
+    color: #996633;
+    /* Brown text color for paragraph */
+}
+
+/* Styling for the Contact me section */
+label {
+    display: block;
+    margin-top: 10px;
+    color: #4c7c4c;
+    /* Dark green label color */
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #4c7c4c;
+    /* Dark green border for input and textarea */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4c7c4c;
+    /* Dark green submit button background color */
+    color: #fff;
+    /* White text color for submit button */
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #996633;
+    /* Brown color on hover for submit button */
+}
